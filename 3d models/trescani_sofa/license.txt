@@ -1,0 +1,11 @@
+Model Information:
+* title:	Trescani Sofa
+* source:	https://sketchfab.com/3d-models/trescani-sofa-4f756b99f9714b1996b9de5b1595905e
+* author:	3D SHARE 2 (https://sketchfab.com/nganngan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Trescani Sofa" (https://sketchfab.com/3d-models/trescani-sofa-4f756b99f9714b1996b9de5b1595905e) by 3D SHARE 2 (https://sketchfab.com/nganngan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

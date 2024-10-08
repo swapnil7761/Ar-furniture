@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+        <title>UAMO | Elevate shopping</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="3js.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <header style="position: static;">
+            <div class="title">
+                <a href="index.html"><img  src="/Ar-furniture/images/homepage/logo.png" /></a>
+            </div>
+            <div class="smallnav">
+                <div class="menu"><a href="#">Menu</a></div>
+                <div class="dropnavbar">
+                    <nav class="navbar">
+                        <ul>
+                            <li ><a href="index.html">Home </a></li>
+                            <li><a href="products.html">Products </a></li>
+                            <li style="font-weight: bold;border-bottom: 4px solid orange;"><a href="arshopping.html">AR shopping</a></li>
+                            <li><a href="blogs.html">Blogs</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="options">
+                        <ul>
+                            <li><a style="cursor: pointer;" onclick="loginpopup()">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <section class="canvasdiv" style="padding-top: 0;">
+            <div class="arcover"><img src="./images/products/arcover.png"></div>
+            <iframe src="/Ar-furniture/3js.html"></iframe>
+        </section>
+        
+        <section class="newsletter">
+            <div class="letterinfo">
+                <h3>
+                    Subscribe to our newsletter for the exclusive offers and product launches.<br> Stay updated on everything you need for your home!
+                </h3>
+            </div>
+            <div class="emailinfo">
+                <input id="emailinput" type="email" placeholder="i.e. parsanaswapnil@gmail.com" required />
+                <button onclick="validateemail()" type="submit">⇨</button>
+            </div>
+        </section>
+        <hr />
+        <footer>
+            <div class="logo"><img src="/Ar-furniture/images/homepage/logo.png" /></div>
+            <div class="company">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="#">showrooms</a></li>
+                    <li><a href="#">our story</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><a href="#">share style</a></li>
+                    <li><a href="#">blogs</a></li>
+                    <li><a href="#">giving back</a></li>
+                </ul>
+            </div>
+            <div class="Products">
+                <h2>Products</h2>
+                <ul>
+                    <li><a href="#">in-store shopX</a></li>
+                    <li><a href="#">brands</a></li>
+                    <li><a href="#">giftcards</a></li>
+                    <li><a href="#">product care</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">estimated sale</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <p>Free Customer Care</p>
+                <h3>+1969 234 9852</h3>
+                <p>Need live support?</p>
+                <h3>info@example.com</h3>
+                <p>Address:</p>
+                <h3>78 Marmora Road, Glasgow, D04 89GR</h3>
+            </div>
+            <div class="follow">
+                <h2>Follow Us</h2>
+                <div>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                      <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                      <a href="https://www.pinterest.com" target="_blank">
+                        <i class="fab fa-pinterest"></i>
+                      </a>
+                      <a href="https://www.github.com" target="_blank">
+                        <i class="fab fa-github"></i>
+                      </a>
+                  </div>
+                <h3>Open Hours: 8.30am – 9.30pm Monday to Friday</h3>
+            </div>
+        </footer>
+        <hr>
+        <div class="payment">
+            <h3>© Uamo. All Rights Reserved.</h3>
+            <img src="/Ar-furniture/images/homepage/payment.png">
+        </div>
+    
+
+        <script src="products.js"  defer></script>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Furniture Placement</title>
+    <link rel="stylesheet" href="3js.css" />
+</head>
+
+<body>
+    <section class="ar">
+        <div class="pictureandcontrols" id="pictureandcontrols">
+            <div class="picture">
+                <div>
+                    <p>Add picture of your room here:</p> 
+                    <input type="file" id="image-upload" accept="image/*" />
+                </div>
+                ---OR---
+                <button id="bgbtn">Get background here!</button>
+            </div>
+            <div class="controls">
+                <label for="zoom-slider">Distance:</label>
+                <input type="range" id="zoom-slider" min=".01" max="10" step="0.05" value="5" />
+                <label for="x-rotation-slider">Topple:</label>
+                <input type="range" id="x-rotation-slider" min="-180" max="180" step="1" value="0" />
+                <label for="y-rotation-slider">Rotate Side-ways:</label>
+                <input type="range" id="y-rotation-slider" min="-90" max="90" step="1" value="0" />
+            </div>
+        </div>
+        <div class="furniture-collection">
+            <div class="imgmodel">
+                <img src="/Ar-furniture/3d models/1sofa_chair//cover.png" data-model="/Ar-furniture/3d models/1sofa_chair/scene.gltf" alt="Furniture 1" />
+            </div>
+            <div class="imgmodel">
+                <img src="/Ar-furniture/3d models/round_table_furniture_model_2/cover.png" data-model="/Ar-furniture/3d models/round_table_furniture_model_2/scene.gltf" alt="Furniture 2" />
+            </div>
+            <div class="imgmodel">
+                <img src="/Ar-furniture/3d models/modern_furniture/cover.png" data-model="/Ar-furniture/3d models/modern_furniture/scene.gltf" alt="Furniture 3" />
+            </div>
+            <div class="imgmodel">
+                <img src="/Ar-furniture/3d models/chair/cover.png" data-model="/Ar-furniture/3d models/chair/scene.gltf" alt="Furniture 4" />
+            </div>
+            <div class="imgmodel">
+                <img src="/Ar-furniture/3d models/table_and_chairs/cover.png" data-model="/Ar-furniture/3d models/table_and_chairs/scene.gltf" alt="Furniture 5" />
+            </div>
+            <div class="imgmodel">
+                <img src="/Ar-furniture/3d models//sofa_3/cover.png" data-model="/Ar-furniture/3d models//sofa_3/scene.gltf" alt="Furniture 5" />
+            </div>
+            <div class="imgmodel">
+                <img src="/Ar-furniture/3d models/red_sofa/cover.png" data-model="/Ar-furniture/3d models/red_sofa/scene.gltf" alt="Furniture 5" />
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="/Ar-furniture/3js.js" defer></script>
+</body>
+
+</html>

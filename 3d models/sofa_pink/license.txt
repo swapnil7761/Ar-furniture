@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sofa (pink)
+* source:	https://sketchfab.com/3d-models/sofa-pink-4485be72470a4078b1eb4c276887dbc7
+* author:	DailyArt (https://sketchfab.com/D.art)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sofa (pink)" (https://sketchfab.com/3d-models/sofa-pink-4485be72470a4078b1eb4c276887dbc7) by DailyArt (https://sketchfab.com/D.art) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

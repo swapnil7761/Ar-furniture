@@ -1,0 +1,374 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3794,
+      "max": [
+        1.0058300495147705,
+        0.8298100233078003,
+        1.9564900398254395
+      ],
+      "min": [
+        -0.4341928958892822,
+        -0.7638400197029114,
+        -1.9593600034713745
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 45528,
+      "componentType": 5126,
+      "count": 3794,
+      "max": [
+        0.9999510645866394,
+        0.9999984502792358,
+        0.9994668960571289
+      ],
+      "min": [
+        -0.9999577403068542,
+        -0.9998772144317627,
+        -0.9995588064193726
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3794,
+      "max": [
+        0.976705014705658,
+        0.9999712109565735,
+        0.9999998807907104,
+        1.0
+      ],
+      "min": [
+        -0.9998640418052673,
+        -0.9999721646308899,
+        -0.9999974966049194,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3794,
+      "max": [
+        0.9901003837585449,
+        0.9845404624938965
+      ],
+      "min": [
+        0.0063065290451049805,
+        0.015848875045776367
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 19692,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 91056,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        0.8118153810501099,
+        -0.6929526925086975,
+        1.8095502853393555
+      ],
+      "min": [
+        -0.20850491523742676,
+        -0.8184924721717834,
+        -1.809549331665039
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 91440,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        1.0,
+        0.29041483998298645,
+        0.956900954246521
+      ],
+      "min": [
+        -1.0,
+        -0.2904180884361267,
+        -0.9569023847579956
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 60704,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        0.9998775124549866,
+        0.32460537552833557,
+        0.9613285660743713,
+        1.0
+      ],
+      "min": [
+        -0.9998773336410522,
+        -0.2754058241844177,
+        -0.9667152762413025,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30352,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        0.5884150266647339,
+        0.9802706241607666
+      ],
+      "min": [
+        0.13460129499435425,
+        0.6559048891067505
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 78768,
+      "componentType": 5125,
+      "count": 48,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "alexguerreros (https://sketchfab.com/alexguerreros)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/leather-sofa-812492013524436788d827e100f935f8",
+      "title": "Leather Sofa"
+    },
+    "generator": "Sketchfab-15.32.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 78960,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 30608,
+      "byteOffset": 78960,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 91824,
+      "byteOffset": 109568,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 61216,
+      "byteOffset": 201392,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 262608,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Sofa_baseColor.png"
+    },
+    {
+      "uri": "textures/Sofa_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Sofa_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Sofa",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Sofa_low_Sofa_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Patas_low_Sofa_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "58b9f80849b14d2b8790f7aa78794411.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "group2"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Sofa_low"
+    },
+    {
+      "mesh": 0,
+      "name": "Sofa_low_Sofa_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Patas_low"
+    },
+    {
+      "mesh": 1,
+      "name": "Patas_low_Sofa_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
